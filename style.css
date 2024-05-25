@@ -1,0 +1,41 @@
+.course{
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    column-gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.card{
+    height:500px;
+    border:2px solid black;
+    width:280px;
+    padding:10px;
+    border:2px solid black;
+    border-radius:5px;
+    box-shadow:2px 2px 4px rgb(68, 67, 67);
+    transition-duration: 1s;
+    background-color: #fdf0f0;
+}
+.card img{
+    height:250px;
+    width: 270px;
+    border-radius:5px;
+
+}
+h1
+{
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow:4px 4px 8px black;
+}
+
+body{
+    background:linear-gradient(to right top,#ffdfdf 0%,#f875aa 100%);
+}

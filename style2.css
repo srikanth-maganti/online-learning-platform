@@ -1,0 +1,27 @@
+div
+{
+    border:1px solid white;
+    height:200px;
+    width:400px;
+    padding:50px;
+    margin:auto;
+    border-radius:5px;
+}
+h1
+{
+    text-align:center;
+}
+
+.btn{
+    text-align: center;
+    opacity:0;
+}
+body{
+    background-image:url("pic.avif");
+    background-size: cover;
+}
+.new{
+    text-align: center;
+    opacity:1;
+}
+
